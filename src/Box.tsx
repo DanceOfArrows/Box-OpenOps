@@ -14,8 +14,6 @@ const checkProps = (next: BoxItem, prev: BoxItem) => {
 const Box = (props: BoxItem) => {
   const { bgColor, clickHandler, indices } = props;
 
-  console.log("hi");
-
   return (
     <div
       className="box-square"
